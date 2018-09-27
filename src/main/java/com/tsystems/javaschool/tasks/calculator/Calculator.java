@@ -12,7 +12,6 @@ public class Calculator {
      *                  Example: <code>(1 + 38) * 4.5 - 1 / 2.</code>
      * @return string value containing result of evaluation or null if statement is invalid
      */
-
     private final String operations = "+-*/";
     private CalcStack<String> stackOfOperators = new CalcStack<>();
     private CalcStack<String> RPNstack = new CalcStack<>();
